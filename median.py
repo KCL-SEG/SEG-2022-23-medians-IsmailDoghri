@@ -6,7 +6,7 @@ while True:
         print("Enter a list of numbers separated by commas: ")
         list =[]
         for value in input().split(","):
-            list.append(int(value))
+            list.append(float(value))
         if len(list) % 2 != 0:
             median = list[int((len(list) - 1) / 2)]
         else:
